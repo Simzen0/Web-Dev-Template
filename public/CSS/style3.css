@@ -1,0 +1,16 @@
+#targets div {
+    /* border: 2px solid    ; */
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+}
+
+#blogImages {
+    width: 40vw;
+    border-radius: 1vw;
+}
+
+#iceberg {
+    width: 30vw;
+    border-radius: 1vw;
+}

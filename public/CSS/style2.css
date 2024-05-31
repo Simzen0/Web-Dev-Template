@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: Geneva, Tahoma, sans-serif, sans-serif;
+}
+
+#banner {
+    display: flex;
+    gap: 23vw;
+    box-shadow: 0px 0px 0.5vw 0px rgba(0, 0, 0, 0.75);
+    padding: 0.5vw 0vw;
+    margin-bottom: 2vw;
+}
+
+#banner img {
+    width: 20vw;
+    margin-left: 2vw;
+}
+
+#navBar {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55vw;
+}
+
+#navBar a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+    padding: 0vw 2vw;
+    color: #009fdc;
+    font-weight: 600;
+}
+
+#navBar a:hover {
+    color: #00709c;
+}
+
+#navBar a.active {
+    color: #00709c;
+}
+
+#formContainer {
+    width: 40vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 0.5vw 0px rgba(0, 0, 0, 0.75);
+    border-radius: 1vw;
+    padding: 0.5vw 0vw 2vw 0vw;
+    margin-bottom: 2vw;
+}
+
+form {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    width: 35vw;
+    border: 1px solid #009fdc;
+}
+
+h1 {
+    font-size: 1.8vw;
+}
+
+p {
+    font-size: 1vw;
+    margin-bottom: 2vw;
+}
+
+label {
+    font-size: 1vw;
+    font-weight: 600;
+    margin-bottom: 0.5vw;
+    text-align: left;
+}
+
+input {
+    width: 34vw;
+    font-size: 1vw;
+    margin-bottom: 1vw;
+    padding: 0.5vw 0vw 0.5vw 0.5vw;
+    outline: none;
+    border: 0.15vw solid #ddd;
+    border-radius: 0.5vw;
+}
+
+input:hover,
+textarea:hover {
+    border: 0.15vw solid #009fdc;
+}
+
+input:focus,
+textarea:focus {
+    background-color: #eee;
+    border: 0.15vw solid #009fdc;
+}
+
+textarea {
+    width: 34vw;
+    font-size: 1vw;
+    outline: none;
+    border: 0.15vw solid #ddd;
+    border-radius: 0.5vw;
+    margin-bottom: 1.5vw;
+}
+
+#signupBtn {
+    width: 8vw;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    background-color: #009fdc;
+    padding: 0.5vw 0vw;
+    border-radius: 0.5vw;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+}
+
+#footer {
+    text-align: center;
+    box-shadow: 0px 0px 0.5vw 0px rgba(0, 0, 0, 0.75);
+    padding: 1vw 0vw;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 2vw;
+    height: 2vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+}
